@@ -1,0 +1,81 @@
+* {
+    font-family: Arial;
+}
+body {
+    background-color: rgb(173, 216, 230);
+}
+main {
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px darkgray;
+    animation: fadeIn 2s;
+}
+section {
+    padding: 15px 20px 15px 20px;
+}
+.nav {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: lightsteelblue;;
+    color: black;
+    border-radius: 3px;
+    margin-right: 10px;
+    list-style-type: none;
+    transition: background-color 0.3s ease-in;
+    animation: fadeIn 2s;
+}
+.navbar li{
+    float: left;
+    padding-top: 3px;
+}
+.navbar li a:hover {
+    background-color: rgb(173, 216, 230);
+    border: darkslategray;
+    border-radius: 10px;
+}
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 12px;
+
+}
+ul{
+    list-style-type: none;
+}
+#about {
+    padding-top: 50px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.aboutMe {
+    display: flex;
+    gap: 15px
+}
+.aboutMe > p {
+    flex: 1;
+    padding: 25px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px darkgray;
+}
