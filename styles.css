@@ -1,5 +1,5 @@
 * {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 body {
     background-color: rgb(173, 216, 230);
@@ -40,8 +40,6 @@ section {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    padding: 12px;
-
 }
 ul{
     list-style-type: none;
@@ -55,9 +53,12 @@ h1{
 h2{
     text-align: center;
 }
-
+h3{
+    text-align: center;
+}
 p{
     text-align: left;
+    font-weight: lighter;
 }
 
 @keyframes fadeIn {
@@ -78,4 +79,21 @@ p{
     background-color: lightsteelblue;
     border-radius: 5px;
     box-shadow: 2px 2px 5px darkgray;
+}
+span {
+    font-size: x-large;
+    font-weight: bold;
+}
+a {
+    color: black;
+    background-color: lightcyan;
+    text-decoration: none;
+    border: 1px solid darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in;
+}
+a:hover {
+    color: lightcyan;
+    background-color: darkslategray;
 }
